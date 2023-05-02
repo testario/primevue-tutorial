@@ -10,6 +10,7 @@
         <nav class="mt-5">
           <ul>
             <li class="py-2"><router-link to="/calendar"><span class="pi pi-calendar"></span> Calendar</router-link></li>
+            <li class="py-2"><router-link to="/cascade-select"><span class="pi pi-caret-down"></span> Select</router-link></li>
           </ul>
         </nav>
       </aside>
