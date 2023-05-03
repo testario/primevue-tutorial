@@ -4,6 +4,7 @@ import Calendar from "../components/Calendar.vue";
 import CascadeSelect from "../components/CascadeSelect.vue";
 import Checkbox from "../components/Checkbox.vue";
 import Chips from "../components/Chips.vue";
+import ColorPickerComponent from "../components/ColorPickerComponent.vue";
 
 const routes = [
   {
@@ -25,6 +26,10 @@ const routes = [
   {
     path: "/chips",
     component: Chips
+  },
+  {
+    path: "/color-picker",
+    component: ColorPickerComponent
   }
 ]
 
