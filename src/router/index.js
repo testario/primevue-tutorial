@@ -3,6 +3,7 @@ import Index from "../components/Index.vue";
 import Calendar from "../components/Calendar.vue";
 import CascadeSelect from "../components/CascadeSelect.vue";
 import Checkbox from "../components/Checkbox.vue";
+import Chips from "../components/Chips.vue";
 
 const routes = [
   {
@@ -20,6 +21,10 @@ const routes = [
   {
     path: "/checkbox",
     component: Checkbox
+  },
+  {
+    path: "/chips",
+    component: Chips
   }
 ]
 

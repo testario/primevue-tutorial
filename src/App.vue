@@ -12,6 +12,7 @@
             <li class="py-2"><router-link to="/calendar"><span class="pi pi-calendar"></span> Calendar</router-link></li>
             <li class="py-2"><router-link to="/cascade-select"><span class="pi pi-caret-down"></span> Select</router-link></li>
             <li class="py-2"><router-link to="/checkbox"><span class="pi pi-check-square"></span> Checkbox</router-link></li>
+            <li class="py-2"><router-link to="/chips"><span class="pi pi-compass"></span> Chips</router-link></li>
           </ul>
         </nav>
       </aside>
