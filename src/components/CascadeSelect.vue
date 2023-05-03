@@ -85,8 +85,16 @@ const selectedCity = ref(),
     <div class="grid grid-cols-3 gap-4">
       <div>
         <h4 class="text-lg mb-4">Basic</h4>
-        <cascade-select v-model="selectedCity"  />
+        <cascade-select v-model="selectedCity" :options="countries" option-group-label="name" option-label="cname"
+          :option-group-children="['states', 'cities']" style="min-width: 14rem" placeholder="Select a city"
+        />
       </div>
+      <div>
+        <h4 class="text-lg mb-4">Loading</h4>
+        <cascade-select loading style="min-width: 14rem" placeholder="Loading..."
+        />
+      </div>
+
     </div>
   </div>
 </template>
